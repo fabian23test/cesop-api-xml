@@ -61,4 +61,11 @@
             </plugin>
         </plugins>
     </build>
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub packages</name>
+            <url>https://maven.pkg.github.com/fabian23test/cesop-xml-api</url>
+        </repository>
+    </distributionManagement>
 </project>
