@@ -6,7 +6,7 @@
 
     <groupId>ro.home34.cesop</groupId>
     <artifactId>cesop-xml-api</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>0.0.1</version>
 
     <name>cesop-xml-api</name>
     <!-- FIXME change it to the project's website -->
