@@ -17,10 +17,6 @@ jobs:
       - name: Build Maven project
         run: mvn -B verify --file pom.xml
         
-      - name: Check the target directory
-        run: |
-          cd target
-          ls -ltr
       - name: Publish package
         run: mvn --batch-mode deploy
         env:
